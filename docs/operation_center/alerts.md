@@ -20,9 +20,10 @@ There is five possible statuses for an alert:
 
 The Urgency is a number used to give a score to the risk associated with a specific alert. It is calculated from the severity of a rule and the criticality of assets related to the alert.
 This gives a value between 1 (very low risk) and 100 (very high risk).
-The urgency of an alert is calculated using the following formula:
 
-Alert urgency = (Severity of the rule + Criticality of the asset)/2
+The urgency of an alert is calculated using the following formula:
+**Alert urgency = (Severity of the rule + Criticality of the asset) / 2**
+
 The urgency is provided under two different representations on alert detail: a numerical and a textual representation.
 
 | Display  |  Value   |
